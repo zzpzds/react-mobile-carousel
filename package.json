@@ -1,0 +1,41 @@
+{
+  "name": "react-mobile-carousel",
+  "version": "1.0.0",
+  "description": "base react mobile component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.package.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzpzds/react-mobile-carousel.git"
+  },
+  "keywords": [
+    "react",
+    "mobile",
+    "carousel"
+  ],
+  "author": "zzpzds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzpzds/react-mobile-carousel/issues"
+  },
+  "homepage": "https://github.com/zzpzds/react-mobile-carousel#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
+  }
+}
